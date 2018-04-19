@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700');
+body{
+	font:300 16px/1.5 'Lato',Arial,sans-serif;
+	color: #3c3c3c;
+	
+}
+
+/*Typography*/
+,h4,h5,h6{
+	font-weight: 700;
+	letter-spacing: .16em;
+	line-height: 1.3px;
+}
+p{
+	margin:0 0 25px;
+}/*
+a,
+input[type="submit"],
+input[type="button"],
+button{
+	-webkit-transition:color.3s ease-in,border-color .3s ease-in,background-color .3s ease-in;
+	-maz-transition:color.3s ease-in,border-color .3s ease-in,background-color .3s ease-in;
+	transition: color.3s ease-in,border-color .3s ease-in,background-color .3s ease-in;
+}
+input[type="submit"],
+input[type="button"],
+.ba-button{
+	display: inline-block;
+}
+*/
+/* Layout */
+.ba-container{
+	padding-left: 20px;
+	padding-right: 20px;
+	max-width: 940px;
+}
+.ba-container--hero{
+	max-width: 640px;
+}
+
+.ba-header{
+	background: #adb8cc url(../image/hero-bg.jpg) 50% no-repeat;
+	background-size: cover;
+	text-align: center;
+	color:#fff;
+	padding: 284px 0 384px;
+	min-height: 100vh;
+	font-size: 15px;
+	letter-spacing: .06em;
+	font-weight: 400;
+	text-transform: uppercase;
+	line-height: 2;
+	position: relative;
+
+}
+.ba-logo{
+	display: inline-block;
+	margin-bottom: 80px;
+	margin-left: 63%;
+}
+.ba-header_title{
+	text-transform: uppercase;
+	font-size: 54px;
+	margin: 0 0 35px;
+	width: 640px;
+	margin-left: 30%;
+}
+.ba-header--content{
+	display: block;
+	margin-left: 30%;
+	width: 640px;
+	height: 120px;
+}
+.ba-scroll{
+	display: block;
+	width: 23px;
+	height: 37px;
+	position: absolute;
+	bottom: 115px;
+	left: 50%;
+	margin-left: -12px;
+	background: url(../image/scroll.svg) 50% no-repeat;
+	background-size:cover;
+}
+.ba-scroll:hover{
+	opacity: .6;
+}
+
+/* About*/
+
+.ba-about{
+	padding: 160px 0;
+	flex: auto;
+	justify-content: center;
+	align-content: center;
+}
+.ba-box{
+	border: 2px solid #3c3c3c;
+	border-width: 0 2px 2px;
+	padding: 70px 180px 26px;
+	text-align: center;
+	position: relative;
+	margin-left: 10%;
+}
+.ba-box:before,
+.ba-box:after{
+	display: block;
+	content: "";
+	position: absolute;
+	height: 2px;
+	background: #3c3c3c;
+	width: 22%;
+}
+.ba-box:before{
+	left: 0;
+	top: 0;
+}
+.ba-box:after{
+	right: 0;
+	top: 0;
+}
+.ba-box:last-child{
+	margin-bottom: 0;
+}
+.ba-box--light{
+	border-color: #fff;
+}
+.ba-box--light:before, .ba-box--light:after{
+	background-color: #fff;
+}
+.ba-box_title{
+	font-size: 34px;
+	text-transform: uppercase;
+	position:absolute;
+	left: 24%;
+	top: 0;
+	margin: 0;
+	text-align: center;
+	width: 52%;
+	transform: translateY(-50%);
+	
+}
+
+/* Services */
+
+.ba-section{
+	padding: 130px 0 110px;
+}
+.ba-section--services{
+	color: #fff;
+	background: #adb8cc url(../image/services.jpg) 50% no-repeat;
+	background-size: cover;
+}
+
+/* What We Do*/
+
+.ba-section--what-we-do{
+	
+	
+}
+.ba-design{
+	display: block;
+	width: 86px;
+	height: 86px;
+	position: relative;
+	top: 10px;
+	left: 44.8%;
+	margin-left: -12px;
+	background: url(../image/design-logo.png) 50% no-repeat;
+	background-size:cover;
+	align-content: center;
+}
+.ba-design--content{
+	display: block;
+	top:285;
+	margin-left: 3%;
+}
+
+.ba-developement{
+	display: block;
+	width: 86px;
+	height: 86px;
+	position: relative;
+	top: 30px;
+	left: 45%;
+	margin-left: -12px;
+	background: url(../image/dev-logo.png) 50% no-repeat;
+	background-size:cover;
+}
+
+.ba-product_management{
+	display: block;
+	width: 86px;
+	height: 86px;
+	position: relative;
+	top: 14px;
+	left: 45%;
+	margin-left: -12px;
+	background: url(../image/prod-manager.png) 50% no-repeat;
+	background-size:cover;
+}
+
+.ba-contact{
+	display: block;
+	width: 385px;
+	height: 58px;
+	position: relative;
+	top: 5px;
+	left: 12%;
+	background: url(../image/contact-us.svg) 50% no-repeat;
+	background-size:cover;
+	color: #fff;
+	text-decoration: none;
+}
+
+.ba-footer--content{
+	display: block;
+	margin-left: 37%;
+}
